@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 // get a list of 5 jokes
 
-app.get('/jokes', async (req, res) => {
+app.get('/api/jokes', async (req, res) => {
     const jokes = [
         {id: 1,
             joke: 'Why don\'t scientists trust atoms? Because they make up everything.'
